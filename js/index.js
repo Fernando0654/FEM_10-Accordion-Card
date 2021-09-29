@@ -1,5 +1,5 @@
 const question_btn = document.getElementsByClassName("faq-btn");
-const arrow = document.querySelectorAll("#arrow");
+const arrow = document.querySelectorAll(".arrow");
 const title = document.querySelectorAll(".title");
 const texto = document.getElementsByClassName("faq-response");
 let howMany = 0;
