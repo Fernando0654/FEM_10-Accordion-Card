@@ -1,0 +1,72 @@
+body {
+  position: inherit;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 1.5em;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+main .illustration {
+  position: relative;
+  width: 50%;
+  margin-top: 0em;
+  margin-left: -5em;
+  margin-right: 5em;
+}
+
+main .illustration #illust {
+  position: absolute;
+  width: 100%;
+}
+
+main .illustration #shadow {
+  position: absolute;
+  margin-top: 0em;
+  margin-left: 1em;
+  width: 100%;
+}
+
+main .illustration #box {
+  display: block;
+  position: absolute;
+  top: 9em;
+  left: -2em;
+  z-index: 4;
+}
+
+main .faq-section {
+  width: 50%;
+}
+
+main .faq-section h1 {
+  text-align: left;
+}
+
+main .faq-section .faq-row {
+  width: 80%;
+  margin: 0;
+}
+
+main .faq-section .faq-row:nth-child(6) {
+  margin-bottom: 0em;
+}
+
+main .faq-section .faq-row .faq-btn {
+  cursor: pointer;
+}
+
+main .faq-section .faq-row .faq-btn:hover > h2 {
+  color: gray;
+}
+/*# sourceMappingURL=card.desktop.css.map */

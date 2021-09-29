@@ -1,0 +1,55 @@
+body {
+    position: inherit;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  padding: 1.5em;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  .illustration {
+    position: relative;
+    width: 50%;
+    margin-top: 0em;
+    margin-left: -5em;
+    margin-right: 5em;
+    #illust {
+      position: absolute;
+      width: 100%;
+    }
+    #shadow {
+      position: absolute;
+      margin-top: 0em;
+      margin-left: 1em;
+      width: 100%;
+    }
+    #box {
+        display: block;
+        position: absolute;
+        top: 9em;
+        left: -2em;
+        z-index: 4;
+    }
+  }
+  .faq-section {
+    width: 50%;
+    h1 {
+      text-align: left;
+    }
+    .faq-row {
+      width: 80%;
+      margin: 0;
+      &:nth-child(6) {
+        margin-bottom: 0em;
+      }
+      .faq-btn {
+        cursor: pointer;
+        &:hover > h2 {
+          color: gray;
+        }
+      }
+    }
+  }
+}
