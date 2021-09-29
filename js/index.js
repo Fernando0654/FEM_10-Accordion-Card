@@ -41,3 +41,4 @@ window.onload = function () {
       "./assets/img/bg-pattern-mobile.svg";
   }
 };
+
